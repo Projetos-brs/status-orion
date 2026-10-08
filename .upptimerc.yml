@@ -1,4 +1,4 @@
-# Pagina de status do ORION SGI - https://status.orionsgi.com.br
+# Pagina de status do ORION SGI - https://statusmaxpesa.orionsgi.com.br
 # Testes a cada 5 minutos pelo GitHub Actions (fora do servidor do ORION).
 # Documentacao: https://upptime.js.org/docs/configuration
 owner: Projetos-brs
@@ -19,7 +19,7 @@ sites:
     maxResponseTime: 10000
 
 status-website:
-  cname: status.orionsgi.com.br
+  cname: statusmaxpesa.orionsgi.com.br
   logoUrl: https://raw.githubusercontent.com/Projetos-brs/status-orion/master/assets/orion-logo.png
   name: Status ÓRION SGI
   theme: night
