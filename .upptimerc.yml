@@ -1,31 +1,75 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Pagina de status do ORION SGI - https://status.orionsgi.com.br
+# Testes a cada 5 minutos pelo GitHub Actions (fora do servidor do ORION).
+# Documentacao: https://upptime.js.org/docs/configuration
+owner: Projetos-brs
+repo: status-orion
 
+# Servicos em ordem alfabetica
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: MAXPESA · API e banco de dados
+    url: https://maxpesa.orionsgi.com.br/api/public/saude
+    expectedStatusCodes:
+      - 200
+    maxResponseTime: 10000
+  - name: MAXPESA · Sistema
+    url: https://maxpesa.orionsgi.com.br/
+    maxResponseTime: 10000
+  - name: MAXPESA · Trabalhe Conosco
+    url: https://maxpesa.orionsgi.com.br/carreiras/maxpesa
+    maxResponseTime: 10000
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.orionsgi.com.br
+  logoUrl: https://raw.githubusercontent.com/Projetos-brs/status-orion/master/assets/orion-logo.png
+  name: Status ÓRION SGI
+  theme: night
+  introTitle: "Status dos sistemas **ÓRION SGI**"
+  introMessage: Acompanhe aqui, em tempo real, a disponibilidade dos sistemas ÓRION SGI. Os serviços são testados automaticamente a cada 5 minutos, de fora dos nossos servidores. Em caso de instabilidade, a ocorrência e as atualizações aparecem nesta página.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  activeIncidents: Ocorrências em andamento
+  allSystemsOperational: Todos os sistemas estão funcionando normalmente
+  incidentReport: "Ocorrência nº $NUMBER →"
+  activeIncidentSummary: "Aberta em $DATE com $POSTS atualizações"
+  incidentTitle: "Ocorrência nº $NUMBER"
+  incidentDetails: Detalhes da ocorrência
+  incidentFixed: Resolvida
+  incidentOngoing: Em andamento
+  incidentOpenedAt: Aberta em
+  incidentClosedAt: Encerrada em
+  incidentSubscribe: Acompanhar atualizações
+  incidentViewOnGitHub: Ver no GitHub
+  incidentCommentSummary: "Publicado em $DATE por $AUTHOR"
+  incidentBack: "← Voltar para todas as ocorrências"
+  pastIncidents: Ocorrências anteriores
+  pastIncidentsResolved: "Resolvida em $MINUTES minutos com $POSTS atualizações"
+  liveStatus: Status agora
+  overallUptime: "Disponibilidade geral: $UPTIME"
+  overallUptimeTitle: Disponibilidade geral
+  averageResponseTime: "Tempo médio de resposta: $TIMEms"
+  averageResponseTimeTitle: Tempo médio de resposta
+  sevelDayResponseTime: Tempo de resposta (7 dias)
+  responseTimeMs: Tempo de resposta (ms)
+  up: Operacional
+  down: Fora do ar
+  degraded: Lento
+  ms: ms
+  loading: Carregando
+  navGitHub: GitHub
+  footer: "Página de status do ÓRION SGI · BRS Quality · gerada com [Upptime](https://upptime.js.org)"
+  errorTitle: Ocorreu um erro
+  errorIntro: Não foi possível carregar o status mais recente.
+  errorText: Tente novamente em alguns instantes.
+  errorHome: Ir para a página inicial
+  scheduledMaintenance: Manutenção programada
+  pastScheduledMaintenance: Manutenções programadas anteriores
+  scheduledMaintenanceSummaryStarted: "Iniciada em $DATE, duração de $DURATION minutos"
+  scheduledMaintenanceSummaryStarts: "Começa em $DATE, duração de $DURATION minutos"
+  startedAt: Iniciada em
+  startsAt: Começa em
+  duration: Duração
+  durationMin: "$DURATION minuto"
+  durationMins: "$DURATION minutos"
