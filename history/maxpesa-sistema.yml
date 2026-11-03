@@ -1,7 +1,7 @@
 url: https://maxpesa.orionsgi.com.br/
-status: up
+status: degraded
 code: 200
-responseTime: 431
-lastUpdated: 2026-11-02T01:59:37.190Z
+responseTime: 53694
+lastUpdated: 2026-11-03T03:50:52.991Z
 startTime: 2026-10-08T18:18:54.946Z
 generator: Upptime <https://github.com/upptime/upptime>
