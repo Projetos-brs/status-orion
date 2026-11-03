@@ -22,19 +22,19 @@
     "url": "https://maxpesa.orionsgi.com.br/",
     "icon": "https://icons.duckduckgo.com/ip3/maxpesa.orionsgi.com.br.ico",
     "slug": "maxpesa-sistema",
-    "status": "degraded",
-    "uptime": "99.89%",
-    "uptimeDay": "97.31%",
-    "uptimeWeek": "99.62%",
-    "uptimeMonth": "99.89%",
-    "uptimeYear": "99.89%",
-    "time": 2325,
-    "timeDay": 53694,
-    "timeWeek": 7938,
-    "timeMonth": 2325,
-    "timeYear": 2325,
+    "status": "up",
+    "uptime": "99.37%",
+    "uptimeDay": "83.79%",
+    "uptimeWeek": "97.68%",
+    "uptimeMonth": "99.37%",
+    "uptimeYear": "99.37%",
+    "time": 2261,
+    "timeDay": 27082,
+    "timeWeek": 7005,
+    "timeMonth": 2261,
+    "timeYear": 2261,
     "dailyMinutesDown": {
-      "2026-11-03": 39
+      "2026-11-03": 233
     }
   },
   {
