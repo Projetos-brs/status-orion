@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 900,
-    "timeDay": 450,
-    "timeWeek": 1837,
-    "timeMonth": 900,
-    "timeYear": 900,
+    "time": 887,
+    "timeDay": 475,
+    "timeWeek": 1802,
+    "timeMonth": 887,
+    "timeYear": 887,
     "dailyMinutesDown": {}
   },
   {
@@ -23,16 +23,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/maxpesa.orionsgi.com.br.ico",
     "slug": "maxpesa-sistema",
     "status": "up",
-    "uptime": "99.43%",
+    "uptime": "99.45%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "97.68%",
-    "uptimeMonth": "99.43%",
-    "uptimeYear": "99.43%",
-    "time": 2091,
-    "timeDay": 358,
-    "timeWeek": 7085,
-    "timeMonth": 2091,
-    "timeYear": 2091,
+    "uptimeMonth": "99.45%",
+    "uptimeYear": "99.45%",
+    "time": 2032,
+    "timeDay": 136,
+    "timeWeek": 7031,
+    "timeMonth": 2032,
+    "timeYear": 2032,
     "dailyMinutesDown": {
       "2026-11-03": 233
     }
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 544,
-    "timeDay": 432,
-    "timeWeek": 556,
-    "timeMonth": 544,
-    "timeYear": 544,
+    "time": 541,
+    "timeDay": 449,
+    "timeWeek": 519,
+    "timeMonth": 541,
+    "timeYear": 541,
     "dailyMinutesDown": {}
   }
 ]
