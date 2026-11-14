@@ -1,7 +1,7 @@
 url: https://maxpesa.orionsgi.com.br/api/public/saude
-status: up
-code: 200
-responseTime: 466
-lastUpdated: 2026-11-14T02:49:42.298Z
+status: down
+code: 521
+responseTime: 208
+lastUpdated: 2026-11-14T14:30:37.835Z
 startTime: 2026-10-08T18:18:53.903Z
 generator: Upptime <https://github.com/upptime/upptime>
